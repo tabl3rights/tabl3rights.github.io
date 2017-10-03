@@ -3,29 +3,112 @@ body{
 font-family: "Helvetica", "Arial", serif;
 	
 color: #f9d800;
-	background-color: #02598e;
+	background-color: #074f8b;
 	
 text-shadow: 1px 1px #ff0000;
 	text-align: center;
 
 }
 
-.topnav {
-    overflow: hidden;
-    background-color: #333;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    font-family: 'Droid Sans', sans-serif;;
 }
 
+.clearfix {
+    clear: both;
+}
 
-.topnav a {
+.wrap {
+    width: 940px;
+    margin: 4em auto;
+}
+nav {
+    background: -webkit-gradient(linear, center top, center bottom, from(#074f8b), to(#074f8b));
+    background-image: linear-gradient(#074f8b, #074f8b);
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);
+    padding: 0 10px;
+    position: relative;
+}
+.menu li {
     float: left;
+    position: relative;
+}
+.menu li a {
+    color: #444;
     display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 6px 12px;
+    margin: 8px 8px;
+    vertical-align: middle;
     text-decoration: none;
 }
-
-h1 {
+.menu li a:hover {
+    background: -webkit-gradient(linear, center top, center bottom, from(#ededed), to(#074f8b));
+    background-image: linear-gradient(#ededed, #074f8b);
+    border-radius: 12px;
+    box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.1);
+    color: #074f8b;
+}
+@font-face {
+    font-family: 'IconicStroke';
+    src: url("fonts/iconic/iconic_stroke.eot");
+    src: local('IconicStroke'),
+    url("fonts/iconic/iconic_stroke.svg#iconic") format('svg'),
+    url("fonts/iconic/iconic_stroke.otf") format('opentype');
+}
+.iconic {
+    color:inherit;
+    font-family: "IconicStroke";
+    font-size: 38px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+h7 {
 	
 font-size: 1.3em;
 	
