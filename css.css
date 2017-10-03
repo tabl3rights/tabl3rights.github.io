@@ -2,15 +2,28 @@ body{
 	
 font-family: "Helvetica", "Arial", serif;
 	
-color: #AAFF00;
-	background-color: #ADD3F9;
+color: #f9d800;
+	background-color: #02598e;
 	
 text-shadow: 1px 1px #ff0000;
 	text-align: center;
 
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
 
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
 h1 {
 	
@@ -37,6 +50,6 @@ padding: 8px;
 
 tr:nth-child(even) {
     
-background-color: dj3450;
+background-color: #b29211;
 
 }
